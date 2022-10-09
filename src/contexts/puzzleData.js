@@ -5,5 +5,9 @@ export const puzzleData = {
     width: 0,
     height: 0,
     pieceCount: 0,
+    setUrl: (u)=>{},
+    setWidth: (w)=>{},
+    setHeight: (h)=>{},
+    setPieceCount: (p)=>{}
 }
-export const PuzzleDataContext = React.createContext();
+export const PuzzleDataContext = React.createContext(puzzleData);
