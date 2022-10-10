@@ -2,7 +2,7 @@
   "name": "puzzle-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pranavgithub1.github.io/puzzle_game",
+  "homepage": "https://pranavgithub1.github.io/puzzle_game/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

@@ -14,7 +14,7 @@ function App() {
     <PuzzleDataContext.Provider value={{
       url, width, height, pieceCount, setUrl, setWidth, setHeight, setPieceCount
     }}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path="/" element={<WelcomeScreen/>}/>
           <Route exact path="/game" element={<Puzzle1/>}/>
